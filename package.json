@@ -1,0 +1,16 @@
+{
+  "name": "qa-dojo-7-practise-maryna",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {},
+  "author": "Maryna",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "playwright": "^1.55.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.55.1",
+    "@types/node": "^24.6.2"
+  }
+}
