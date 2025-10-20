@@ -14,7 +14,7 @@ test("Sign up with wrong email - MP006", async ({page}) => {
     await expect(errorMessage).toBeVisible();
 })
 
-test("Sign up with empty password - MP007", async ({page}) => { //BUG
+test("Sign up with empty password - MP007", async ({page}) => { //found BUG
     await page.getByRole('textbox', { name: 'Username' }).fill("Maryna10");
     await page.getByRole('textbox', { name: 'Email' }).fill("Maryna10@test.com");
     await page.getByRole('textbox', { name: 'Password' }).fill("");
